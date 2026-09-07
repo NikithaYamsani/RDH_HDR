@@ -3,17 +3,15 @@ import cv2
 import math
 import torch
 import utils
-import matlab
 import argparse
-import matlab.engine
 import numpy as np
 from model.predict_model import PredictModel
 
 
 def PsnrC(img1, img2):
     # calculate the PSNR
-    img1 = np.array(img1, dtype=np.float)
-    img2 = np.array(img2, dtype=np.float)
+    img1 = np.array(img1, dtype=np.float64)
+    img2 = np.array(img2, dtype=np.float64)
     mse = np.mean((img1 - img2) ** 2)
     if mse < 1.0e-10:
         return 100
@@ -21,8 +19,6 @@ def PsnrC(img1, img2):
 
 
 def main():
-    engine = matlab.engine.start_matlab()  # Start MATLAB process
-
     parser = argparse.ArgumentParser(description='Calculating PSNR')
     parser.add_argument('--img-size', '-size',  nargs='+', default=[512, 512], type=int,
                         help='The size of the images.')
@@ -38,6 +34,9 @@ def main():
 
     parser.add_argument('--watermark-length', '-length', default=10000, type=int,
                         help='The length of the watermark.')
+
+    parser.add_argument('--use-ocnnp', '-ocnnp', action='store_true',
+                        help='Apply the OCNNP diagonal-averaging optimizer on top of CNNP.')
 
     args = parser.parse_args()
 
@@ -60,19 +59,17 @@ def main():
         img = cv2.imread(img_file)
         img_resize = cv2.resize(img, img_size, interpolation=cv2.INTER_CUBIC)
         img_gray = cv2.cvtColor(img_resize, cv2.COLOR_BGR2GRAY)
-        img_gray = np.array(img_gray, dtype=np.float)#Convert input image to gray image with size of 512*512
+        img_gray = np.array(img_gray, dtype=np.float64)#Convert input image to gray image with size of 512*512
         if args.mode == 'histogram_shifting':
             #histogram shifting
-            img_gray_embed = utils.cnn_histogram_shifting(img_gray, message_to_embed, device, model, engine)
+            img_gray_embed = utils.cnn_histogram_shifting(img_gray, message_to_embed, device, model, use_ocnnp=args.use_ocnnp)
         elif args.mode == 'expansion_embedding':
             #expansion embedding
-            img_gray_embed = utils.cnn_expansion(img_gray, message_to_embed, device, model, engine)
+            img_gray_embed = utils.cnn_expansion(img_gray, message_to_embed, device, model, use_ocnnp=args.use_ocnnp)
 
         psnr1.append(np.round(PsnrC(img_gray_embed, img_gray), 2))
 
-    print('CNNP psnr = {}'.format(np.round(np.mean(psnr1), 2)))
-
-    engine.exit()
+    print('{} psnr = {}'.format('OCNNP' if args.use_ocnnp else 'CNNP', np.round(np.mean(psnr1), 2)))
 
 
 if __name__ == "__main__":
