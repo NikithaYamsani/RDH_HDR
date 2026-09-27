@@ -39,6 +39,47 @@ def calculate_complexity(img, i, j):
 
 
 # ---------------------------------------------------------------------------
+# LSBC (Lower Surround Background Complexity), Eq. 8 from Luo et al. 2024:
+#   Lambda = (theta1 + theta2 + theta3 + theta4 + theta5) / 5
+# where, relative to marker pixel (i, j):
+#   theta1 = left        (i, j-1)
+#   theta2 = lower-left   (i+1, j-1)
+#   theta3 = directly below (i+1, j)
+#   theta4 = lower-right  (i+1, j+1)
+#   theta5 = right        (i, j+1)
+# NOTE: unlike calculate_complexity (which averages *differences* between
+# neighbor pairs), LSBC averages the raw pixel *values* themselves.
+# The last row of the image has no "below" neighbors and is excluded, per
+# the paper ("the last row of the image is not computed for the LSBC").
+# ---------------------------------------------------------------------------
+def calculate_lsbc(img, i, j):
+    theta1 = img[i, j - 1]
+    theta2 = img[i + 1, j - 1]
+    theta3 = img[i + 1, j]
+    theta4 = img[i + 1, j + 1]
+    theta5 = img[i, j + 1]
+    return (theta1 + theta2 + theta3 + theta4 + theta5) / 5.0
+
+
+# ---------------------------------------------------------------------------
+# LSBC variant: same 5-neighbor geometry as Eq. 8, but using the SPREAD
+# (standard deviation) of the neighbors instead of their mean. A plain mean
+# of raw pixel values is really a brightness signal (tested: hurts PSNR by
+# misranking dark-but-complex regions as "safe"). Standard deviation is a
+# genuine local-texture/complexity signal, which is presumably closer to
+# the paper's intent behind naming this "Background Complexity."
+# ---------------------------------------------------------------------------
+def calculate_lsbc_spread(img, i, j):
+    theta1 = img[i, j - 1]
+    theta2 = img[i + 1, j - 1]
+    theta3 = img[i + 1, j]
+    theta4 = img[i + 1, j + 1]
+    theta5 = img[i, j + 1]
+    vals = np.array([theta1, theta2, theta3, theta4, theta5])
+    return float(np.std(vals))
+
+
+# ---------------------------------------------------------------------------
 # calculate_tp_tn.m  ->  greedily pick the most frequent prediction-error
 # values until their combined count covers the message length; Tp/Tn are
 # the max/min of the chosen values (the shifting thresholds).
@@ -328,7 +369,7 @@ def cnn_expansion(img, predicted_image, watermark, odd_or_even_num):
 # cnn_histogram_shifting.m -> histogram-shifting embedding, sorted by LSBC-style
 # local complexity (calculate_complexity), with Tp/Tn shifting thresholds.
 # ---------------------------------------------------------------------------
-def cnn_histogram_shifting(img, predicted_image, watermark, odd_or_even_num):
+def cnn_histogram_shifting(img, predicted_image, watermark, odd_or_even_num, use_lsbc=False, lsbc_mode='mean'):
     img = img.astype(np.float64).copy()
     M, N = img.shape
     mn = int(np.ceil(np.log2(M * N))) if M * N > 1 else 1
@@ -341,11 +382,16 @@ def cnn_histogram_shifting(img, predicted_image, watermark, odd_or_even_num):
     predicted_error = np.zeros((M, N), dtype=np.float64)
     complexity = np.zeros((M, N), dtype=np.float64)
 
+    if use_lsbc:
+        complexity_fn = calculate_lsbc_spread if lsbc_mode == 'spread' else calculate_lsbc
+    else:
+        complexity_fn = calculate_complexity
+
     for i in range(1, M - 1):
         for j in range(1, N - 1):
             if (i + j) % 2 == odd_or_even_num:
                 odd_or_even_place[i, j] = 1
-                complexity[i, j] = calculate_complexity(img_w, i, j)
+                complexity[i, j] = complexity_fn(img_w, i, j)
 
     flat_idx = np.flatnonzero(odd_or_even_place.T)  # column-major, like MATLAB find()
     coords = [(idx % M, idx // M) for idx in flat_idx]

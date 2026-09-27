@@ -38,6 +38,12 @@ def main():
     parser.add_argument('--use-ocnnp', '-ocnnp', action='store_true',
                         help='Apply the OCNNP diagonal-averaging optimizer on top of CNNP.')
 
+    parser.add_argument('--use-lsbc', '-lsbc', action='store_true',
+                        help='Sort prediction errors by LSBC (Eq. 8) instead of the base complexity metric, before histogram-shifting embedding.')
+
+    parser.add_argument('--lsbc-mode', default='mean', choices=['mean', 'spread'],
+                        help="'mean' = literal Eq. 8 (average of 5 neighbor values). 'spread' = std-dev of the same 5 neighbors (texture-based variant).")
+
     args = parser.parse_args()
 
     message_to_embed = np.random.randint(0, 2, [args.watermark_length])
@@ -62,14 +68,15 @@ def main():
         img_gray = np.array(img_gray, dtype=np.float64)#Convert input image to gray image with size of 512*512
         if args.mode == 'histogram_shifting':
             #histogram shifting
-            img_gray_embed = utils.cnn_histogram_shifting(img_gray, message_to_embed, device, model, use_ocnnp=args.use_ocnnp)
+            img_gray_embed = utils.cnn_histogram_shifting(img_gray, message_to_embed, device, model, use_ocnnp=args.use_ocnnp, use_lsbc=args.use_lsbc, lsbc_mode=args.lsbc_mode)
         elif args.mode == 'expansion_embedding':
             #expansion embedding
             img_gray_embed = utils.cnn_expansion(img_gray, message_to_embed, device, model, use_ocnnp=args.use_ocnnp)
 
         psnr1.append(np.round(PsnrC(img_gray_embed, img_gray), 2))
 
-    print('{} psnr = {}'.format('OCNNP' if args.use_ocnnp else 'CNNP', np.round(np.mean(psnr1), 2)))
+    label = ('OCNNP' if args.use_ocnnp else 'CNNP') + ('+LSBC' if args.use_lsbc else '')
+    print('{} psnr = {}'.format(label, np.round(np.mean(psnr1), 2)))
 
 
 if __name__ == "__main__":
