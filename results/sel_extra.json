@@ -1,0 +1,110 @@
+[
+ {
+  "image": "camera.png",
+  "bits": 10000,
+  "cnnp_psnr": 63.0466,
+  "cnnp_ssim": 0.999506,
+  "cand_psnr": 63.2566,
+  "cand_ssim": 0.999516,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 31.8
+ },
+ {
+  "image": "camera.png",
+  "bits": 50000,
+  "cnnp_psnr": 55.1984,
+  "cnnp_ssim": 0.997062,
+  "cand_psnr": 55.9396,
+  "cand_ssim": 0.997369,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 30.3
+ },
+ {
+  "image": "camera.png",
+  "bits": 100000,
+  "cnnp_psnr": 50.9285,
+  "cnnp_ssim": 0.992827,
+  "cand_psnr": 51.3692,
+  "cand_ssim": 0.993004,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 30.7
+ },
+ {
+  "image": "moon.png",
+  "bits": 10000,
+  "cnnp_psnr": 64.7022,
+  "cnnp_ssim": 0.999688,
+  "cand_psnr": 65.04,
+  "cand_ssim": 0.999692,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 30.2
+ },
+ {
+  "image": "moon.png",
+  "bits": 50000,
+  "cnnp_psnr": 57.8715,
+  "cnnp_ssim": 0.998418,
+  "cand_psnr": 57.926,
+  "cand_ssim": 0.99838,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 29.8
+ },
+ {
+  "image": "moon.png",
+  "bits": 100000,
+  "cnnp_psnr": 53.9926,
+  "cnnp_ssim": 0.996177,
+  "cand_psnr": 54.1089,
+  "cand_ssim": 0.996173,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 30.3
+ },
+ {
+  "image": "coffee.png",
+  "bits": 10000,
+  "cnnp_psnr": 62.2052,
+  "cnnp_ssim": 0.999465,
+  "cand_psnr": 63.0184,
+  "cand_ssim": 0.99952,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 29.8
+ },
+ {
+  "image": "coffee.png",
+  "bits": 50000,
+  "cnnp_psnr": 53.9609,
+  "cnnp_ssim": 0.996731,
+  "cand_psnr": 54.346,
+  "cand_ssim": 0.996717,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 29.6
+ },
+ {
+  "image": "coffee.png",
+  "bits": 100000,
+  "cnnp_psnr": 48.7433,
+  "cnnp_ssim": 0.991597,
+  "cand_psnr": 49.6004,
+  "cand_ssim": 0.991749,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 30.4
+ }
+]

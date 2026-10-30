@@ -1,0 +1,476 @@
+[
+ {
+  "image": "chelsea",
+  "bits": 10000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 64.5066,
+  "ssim": 0.999691,
+  "out_of_range": 0,
+  "sec": 13.0
+ },
+ {
+  "image": "chelsea",
+  "bits": 10000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 64.7559,
+  "ssim": 0.999679,
+  "out_of_range": 0,
+  "sec": 23.0
+ },
+ {
+  "image": "chelsea",
+  "bits": 10000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.4
+ },
+ {
+  "image": "chelsea",
+  "bits": 50000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 56.4735,
+  "ssim": 0.998192,
+  "out_of_range": 0,
+  "sec": 13.3
+ },
+ {
+  "image": "chelsea",
+  "bits": 50000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 56.774,
+  "ssim": 0.998171,
+  "out_of_range": 0,
+  "sec": 22.4
+ },
+ {
+  "image": "chelsea",
+  "bits": 50000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.1
+ },
+ {
+  "image": "chelsea",
+  "bits": 100000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 52.3076,
+  "ssim": 0.996211,
+  "out_of_range": 0,
+  "sec": 12.9
+ },
+ {
+  "image": "chelsea",
+  "bits": 100000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 52.8782,
+  "ssim": 0.996325,
+  "out_of_range": 0,
+  "sec": 22.6
+ },
+ {
+  "image": "chelsea",
+  "bits": 100000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.3
+ },
+ {
+  "image": "rocket",
+  "bits": 10000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 64.926,
+  "ssim": 0.99969,
+  "out_of_range": 0,
+  "sec": 14.8
+ },
+ {
+  "image": "rocket",
+  "bits": 10000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 65.0027,
+  "ssim": 0.999685,
+  "out_of_range": 0,
+  "sec": 21.2
+ },
+ {
+  "image": "rocket",
+  "bits": 10000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 2.8
+ },
+ {
+  "image": "rocket",
+  "bits": 50000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 57.7544,
+  "ssim": 0.998331,
+  "out_of_range": 0,
+  "sec": 12.7
+ },
+ {
+  "image": "rocket",
+  "bits": 50000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 57.8628,
+  "ssim": 0.998344,
+  "out_of_range": 0,
+  "sec": 23.3
+ },
+ {
+  "image": "rocket",
+  "bits": 50000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.0
+ },
+ {
+  "image": "rocket",
+  "bits": 100000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 54.249,
+  "ssim": 0.996254,
+  "out_of_range": 0,
+  "sec": 13.0
+ },
+ {
+  "image": "rocket",
+  "bits": 100000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 54.4819,
+  "ssim": 0.996369,
+  "out_of_range": 0,
+  "sec": 23.5
+ },
+ {
+  "image": "rocket",
+  "bits": 100000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.6
+ },
+ {
+  "image": "coins",
+  "bits": 10000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 64.1857,
+  "ssim": 0.999667,
+  "out_of_range": 0,
+  "sec": 12.5
+ },
+ {
+  "image": "coins",
+  "bits": 10000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 64.5791,
+  "ssim": 0.999682,
+  "out_of_range": 0,
+  "sec": 24.1
+ },
+ {
+  "image": "coins",
+  "bits": 10000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.1
+ },
+ {
+  "image": "coins",
+  "bits": 50000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 55.8694,
+  "ssim": 0.997954,
+  "out_of_range": 0,
+  "sec": 12.2
+ },
+ {
+  "image": "coins",
+  "bits": 50000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 56.29,
+  "ssim": 0.998012,
+  "out_of_range": 0,
+  "sec": 22.4
+ },
+ {
+  "image": "coins",
+  "bits": 50000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.2
+ },
+ {
+  "image": "coins",
+  "bits": 100000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 51.5318,
+  "ssim": 0.995296,
+  "out_of_range": 0,
+  "sec": 14.3
+ },
+ {
+  "image": "coins",
+  "bits": 100000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 52.1453,
+  "ssim": 0.995403,
+  "out_of_range": 0,
+  "sec": 21.1
+ },
+ {
+  "image": "coins",
+  "bits": 100000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.6
+ },
+ {
+  "image": "astronaut",
+  "bits": 10000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 51.1188,
+  "ssim": 0.993881,
+  "out_of_range": 0,
+  "sec": 18.4
+ },
+ {
+  "image": "astronaut",
+  "bits": 10000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 52.3813,
+  "ssim": 0.99467,
+  "out_of_range": 0,
+  "sec": 26.4
+ },
+ {
+  "image": "astronaut",
+  "bits": 10000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 5.5
+ },
+ {
+  "image": "astronaut",
+  "bits": 50000,
+  "method": "CNNP",
+  "capacity_error": "embedding region overlaps the header area",
+  "sec": 16.1
+ },
+ {
+  "image": "astronaut",
+  "bits": 50000,
+  "method": "Proposed",
+  "capacity_error": "embedding region overlaps the header area",
+  "sec": 22.8
+ },
+ {
+  "image": "astronaut",
+  "bits": 50000,
+  "method": "OCNNP",
+  "capacity_error": "embedding region overlaps the header area",
+  "sec": 24.5
+ },
+ {
+  "image": "astronaut",
+  "bits": 100000,
+  "method": "CNNP",
+  "capacity_error": "embedding region overlaps the header area",
+  "sec": 19.6
+ },
+ {
+  "image": "astronaut",
+  "bits": 100000,
+  "method": "Proposed",
+  "capacity_error": "embedding region overlaps the header area",
+  "sec": 24.2
+ },
+ {
+  "image": "astronaut",
+  "bits": 100000,
+  "method": "OCNNP",
+  "capacity_error": "embedding region overlaps the header area",
+  "sec": 25.7
+ },
+ {
+  "image": "china",
+  "bits": 10000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 64.7097,
+  "ssim": 0.999653,
+  "out_of_range": 0,
+  "sec": 13.1
+ },
+ {
+  "image": "china",
+  "bits": 10000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 64.7911,
+  "ssim": 0.999654,
+  "out_of_range": 0,
+  "sec": 25.3
+ },
+ {
+  "image": "china",
+  "bits": 10000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.0
+ },
+ {
+  "image": "china",
+  "bits": 50000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 57.3192,
+  "ssim": 0.998073,
+  "out_of_range": 0,
+  "sec": 13.5
+ },
+ {
+  "image": "china",
+  "bits": 50000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 57.4796,
+  "ssim": 0.998103,
+  "out_of_range": 0,
+  "sec": 24.5
+ },
+ {
+  "image": "china",
+  "bits": 50000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.2
+ },
+ {
+  "image": "china",
+  "bits": 100000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 52.3306,
+  "ssim": 0.995171,
+  "out_of_range": 0,
+  "sec": 14.2
+ },
+ {
+  "image": "china",
+  "bits": 100000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 53.3557,
+  "ssim": 0.995454,
+  "out_of_range": 0,
+  "sec": 24.1
+ },
+ {
+  "image": "china",
+  "bits": 100000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 4.5
+ },
+ {
+  "image": "flower",
+  "bits": 10000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 64.431,
+  "ssim": 0.99964,
+  "out_of_range": 0,
+  "sec": 12.5
+ },
+ {
+  "image": "flower",
+  "bits": 10000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 64.4736,
+  "ssim": 0.999636,
+  "out_of_range": 0,
+  "sec": 23.9
+ },
+ {
+  "image": "flower",
+  "bits": 10000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.2
+ },
+ {
+  "image": "flower",
+  "bits": 50000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 56.7695,
+  "ssim": 0.997905,
+  "out_of_range": 0,
+  "sec": 12.7
+ },
+ {
+  "image": "flower",
+  "bits": 50000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 56.88,
+  "ssim": 0.997926,
+  "out_of_range": 0,
+  "sec": 22.7
+ },
+ {
+  "image": "flower",
+  "bits": 50000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.2
+ },
+ {
+  "image": "flower",
+  "bits": 100000,
+  "method": "CNNP",
+  "exact": true,
+  "psnr": 53.3605,
+  "ssim": 0.995531,
+  "out_of_range": 0,
+  "sec": 13.1
+ },
+ {
+  "image": "flower",
+  "bits": 100000,
+  "method": "Proposed",
+  "exact": true,
+  "psnr": 53.4204,
+  "ssim": 0.995511,
+  "out_of_range": 0,
+  "sec": 22.3
+ },
+ {
+  "image": "flower",
+  "bits": 100000,
+  "method": "OCNNP",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 3.3
+ }
+]

@@ -1,0 +1,24 @@
+{"image": "Barbara.bmp", "bits": 10000, "method": "CNNP", "psnr": 55.7006, "ssim": 0.998016, "image_exact": true, "message_exact": true, "sec": 11.4}
+{"image": "Barbara.bmp", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 55.7511, "ssim": 0.998025, "image_exact": true, "message_exact": true, "sec": 17.5}
+{"image": "Barbara.bmp", "bits": 50000, "method": "CNNP", "psnr": 47.2288, "ssim": 0.987996, "image_exact": true, "message_exact": true, "sec": 11.6}
+{"image": "Barbara.bmp", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 47.0936, "ssim": 0.98755, "image_exact": true, "message_exact": true, "sec": 17.2}
+{"image": "Barbara.bmp", "bits": 100000, "method": "CNNP", "psnr": 42.8739, "ssim": 0.972752, "image_exact": true, "message_exact": true, "sec": 10.9}
+{"image": "Barbara.bmp", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 42.7608, "ssim": 0.972054, "image_exact": true, "message_exact": true, "sec": 17.1}
+{"image": "Lena.bmp", "bits": 10000, "method": "CNNP", "psnr": 55.257, "ssim": 0.997757, "image_exact": true, "message_exact": true, "sec": 11.1}
+{"image": "Lena.bmp", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 55.3112, "ssim": 0.997764, "image_exact": true, "message_exact": true, "sec": 16.7}
+{"image": "Lena.bmp", "bits": 50000, "method": "CNNP", "psnr": 46.7214, "ssim": 0.986004, "image_exact": true, "message_exact": true, "sec": 12.2}
+{"image": "Lena.bmp", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 46.7132, "ssim": 0.985872, "image_exact": true, "message_exact": true, "sec": 17.9}
+{"image": "Lena.bmp", "bits": 100000, "method": "CNNP", "psnr": 42.6392, "ssim": 0.969068, "image_exact": true, "message_exact": true, "sec": 12.1}
+{"image": "Lena.bmp", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 42.598, "ssim": 0.968616, "image_exact": true, "message_exact": true, "sec": 17.7}
+{"image": "Peppers.bmp", "bits": 10000, "method": "CNNP", "psnr": 50.9573, "ssim": 0.994915, "image_exact": true, "message_exact": true, "sec": 12.4}
+{"image": "Peppers.bmp", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 50.9414, "ssim": 0.994819, "image_exact": true, "message_exact": true, "sec": 18.9}
+{"image": "Peppers.bmp", "bits": 50000, "method": "CNNP", "psnr": 42.3602, "ssim": 0.969225, "image_exact": true, "message_exact": true, "sec": 12.5}
+{"image": "Peppers.bmp", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 42.3227, "ssim": 0.969007, "image_exact": true, "message_exact": true, "sec": 18.4}
+{"image": "Peppers.bmp", "bits": 100000, "method": "CNNP", "psnr": 38.1909, "ssim": 0.932738, "image_exact": true, "message_exact": true, "sec": 13.0}
+{"image": "Peppers.bmp", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 38.1439, "ssim": 0.931857, "image_exact": true, "message_exact": true, "sec": 19.2}
+{"image": "yacht.bmp", "bits": 10000, "method": "CNNP", "psnr": 59.9756, "ssim": 0.999151, "image_exact": true, "message_exact": true, "sec": 11.4}
+{"image": "yacht.bmp", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 59.9322, "ssim": 0.999135, "image_exact": true, "message_exact": true, "sec": 17.9}
+{"image": "yacht.bmp", "bits": 50000, "method": "CNNP", "psnr": 50.9184, "ssim": 0.994069, "image_exact": true, "message_exact": true, "sec": 12.5}
+{"image": "yacht.bmp", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 50.7873, "ssim": 0.993865, "image_exact": true, "message_exact": true, "sec": 18.6}
+{"image": "yacht.bmp", "bits": 100000, "method": "CNNP", "psnr": 46.4458, "ssim": 0.986109, "image_exact": true, "message_exact": true, "sec": 12.4}
+{"image": "yacht.bmp", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 46.427, "ssim": 0.986083, "image_exact": true, "message_exact": true, "sec": 18.7}
