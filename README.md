@@ -87,6 +87,6 @@ Each embedding takes roughly 10 to 40 seconds on a CPU. The other `run_*.py` scr
 ## References
 
 - R. Hu and S. Xiang, "CNN Prediction Based Reversible Data Hiding," IEEE Signal Processing Letters, vol. 28, pp. 464-468, 2021. doi: 10.1109/LSP.2021.3059202
-- Luo et al., OCNNP with LSBC-PEE, 2024.
+- Y. Luo et al., “Reversible data hiding based on optimized CNN predictor and prediction error expansion with lower surround background complexity,” Comput. Electr. Eng., vol. 119, 2024.
 
 The CNNP network, weights and original MATLAB files are from Hu and Xiang's public release.
