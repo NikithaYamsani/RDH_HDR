@@ -1,0 +1,233 @@
+[
+ {
+  "image": "Lena",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 54.9632,
+  "ssim": 0.997679,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.4
+ },
+ {
+  "image": "Lena",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 46.35,
+  "ssim": 0.985918,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.8
+ },
+ {
+  "image": "Lena",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 40.6502,
+  "ssim": 0.96798,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.5
+ },
+ {
+  "image": "Barbara",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 55.7934,
+  "ssim": 0.998097,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.1
+ },
+ {
+  "image": "Barbara",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 47.3828,
+  "ssim": 0.988907,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.7
+ },
+ {
+  "image": "Barbara",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 43.0772,
+  "ssim": 0.976096,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.9
+ },
+ {
+  "image": "Peppers",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 51.2007,
+  "ssim": 0.995205,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.5
+ },
+ {
+  "image": "Peppers",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 42.5868,
+  "ssim": 0.971118,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.6
+ },
+ {
+  "image": "Peppers",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 38.0858,
+  "ssim": 0.937847,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.0
+ },
+ {
+  "image": "Yacht",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 59.7038,
+  "ssim": 0.999106,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.1
+ },
+ {
+  "image": "Yacht",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 50.5072,
+  "ssim": 0.993878,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.3
+ },
+ {
+  "image": "Yacht",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 46.0528,
+  "ssim": 0.9866,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.3
+ },
+ {
+  "image": "camera",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 61.9511,
+  "ssim": 0.999415,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.7
+ },
+ {
+  "image": "camera",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 54.7341,
+  "ssim": 0.99689,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.2
+ },
+ {
+  "image": "camera",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 42.5746,
+  "ssim": 0.988701,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.4
+ },
+ {
+  "image": "moon",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 64.4986,
+  "ssim": 0.999677,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.3
+ },
+ {
+  "image": "moon",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 57.5466,
+  "ssim": 0.998334,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.2
+ },
+ {
+  "image": "moon",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 53.5238,
+  "ssim": 0.995829,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.6
+ },
+ {
+  "image": "coffee",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 62.1836,
+  "ssim": 0.999474,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.2
+ },
+ {
+  "image": "coffee",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 53.7333,
+  "ssim": 0.996671,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 11.8
+ },
+ {
+  "image": "coffee",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 48.0131,
+  "ssim": 0.991264,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 9.1
+ }
+]

@@ -1,0 +1,192 @@
+[
+ {
+  "image": "chelsea",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 64.1944,
+  "ssim": 0.999671,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.1
+ },
+ {
+  "image": "chelsea",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 55.795,
+  "ssim": 0.998007,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.7
+ },
+ {
+  "image": "chelsea",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 50.2104,
+  "ssim": 0.995083,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.9
+ },
+ {
+  "image": "rocket",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 64.8452,
+  "ssim": 0.999686,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.4
+ },
+ {
+  "image": "rocket",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 57.4344,
+  "ssim": 0.998254,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.8
+ },
+ {
+  "image": "rocket",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 54.1145,
+  "ssim": 0.99621,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.9
+ },
+ {
+  "image": "coins",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 62.2111,
+  "ssim": 0.999504,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.1
+ },
+ {
+  "image": "coins",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 53.4012,
+  "ssim": 0.996779,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.6
+ },
+ {
+  "image": "coins",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 48.541,
+  "ssim": 0.992249,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.0
+ },
+ {
+  "image": "astronaut",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 44.8758,
+  "ssim": 0.991236,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 18.7
+ },
+ {
+  "image": "astronaut",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "capacity_error": "embedding region overlaps the header area",
+  "sec": 19.0
+ },
+ {
+  "image": "astronaut",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "capacity_error": "embedding region overlaps the header area",
+  "sec": 22.3
+ },
+ {
+  "image": "china",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 63.6663,
+  "ssim": 0.999595,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 13.7
+ },
+ {
+  "image": "china",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 56.4749,
+  "ssim": 0.997815,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 14.1
+ },
+ {
+  "image": "china",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 50.5743,
+  "ssim": 0.994258,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 16.5
+ },
+ {
+  "image": "flower",
+  "bits": 10000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 64.3832,
+  "ssim": 0.999638,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.2
+ },
+ {
+  "image": "flower",
+  "bits": 50000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 56.6074,
+  "ssim": 0.99786,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.5
+ },
+ {
+  "image": "flower",
+  "bits": 100000,
+  "method": "OCNNP(rounded)",
+  "exact": true,
+  "psnr": 53.2299,
+  "ssim": 0.9955,
+  "out_of_range": 0,
+  "non_integer": 0,
+  "sec": 12.6
+ }
+]

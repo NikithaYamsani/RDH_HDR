@@ -1,0 +1,110 @@
+[
+ {
+  "image": "chelsea.png",
+  "bits": 10000,
+  "cnnp_psnr": 64.5066,
+  "cnnp_ssim": 0.999691,
+  "cand_psnr": 64.7559,
+  "cand_ssim": 0.999679,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 28.5
+ },
+ {
+  "image": "chelsea.png",
+  "bits": 50000,
+  "cnnp_psnr": 56.4735,
+  "cnnp_ssim": 0.998192,
+  "cand_psnr": 56.774,
+  "cand_ssim": 0.998171,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 29.4
+ },
+ {
+  "image": "chelsea.png",
+  "bits": 100000,
+  "cnnp_psnr": 52.3076,
+  "cnnp_ssim": 0.996211,
+  "cand_psnr": 52.8782,
+  "cand_ssim": 0.996325,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 30.1
+ },
+ {
+  "image": "rocket.png",
+  "bits": 10000,
+  "cnnp_psnr": 64.926,
+  "cnnp_ssim": 0.99969,
+  "cand_psnr": 65.0027,
+  "cand_ssim": 0.999685,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 29.5
+ },
+ {
+  "image": "rocket.png",
+  "bits": 50000,
+  "cnnp_psnr": 57.7544,
+  "cnnp_ssim": 0.998331,
+  "cand_psnr": 57.8628,
+  "cand_ssim": 0.998344,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 28.3
+ },
+ {
+  "image": "rocket.png",
+  "bits": 100000,
+  "cnnp_psnr": 54.249,
+  "cnnp_ssim": 0.996254,
+  "cand_psnr": 54.4819,
+  "cand_ssim": 0.996369,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 29.7
+ },
+ {
+  "image": "coins.png",
+  "bits": 10000,
+  "cnnp_psnr": 64.1857,
+  "cnnp_ssim": 0.999667,
+  "cand_psnr": 64.5791,
+  "cand_ssim": 0.999682,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 31.1
+ },
+ {
+  "image": "coins.png",
+  "bits": 50000,
+  "cnnp_psnr": 55.8694,
+  "cnnp_ssim": 0.997954,
+  "cand_psnr": 56.29,
+  "cand_ssim": 0.998012,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 28.3
+ },
+ {
+  "image": "coins.png",
+  "bits": 100000,
+  "cnnp_psnr": 51.5318,
+  "cnnp_ssim": 0.995296,
+  "cand_psnr": 52.1453,
+  "cand_ssim": 0.995403,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 28.5
+ }
+]

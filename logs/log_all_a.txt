@@ -1,0 +1,63 @@
+{"image": "Lena", "bits": 10000, "method": "CNNP", "exact": true, "psnr": 55.257, "ssim": 0.997757, "out_of_range": 0, "sec": 12.4}
+{"image": "Lena", "bits": 10000, "method": "Proposed", "exact": true, "psnr": 56.1101, "ssim": 0.997927, "out_of_range": 0, "sec": 22.3}
+{"image": "Lena", "bits": 10000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.3}
+{"image": "Lena", "bits": 50000, "method": "CNNP", "exact": true, "psnr": 46.7214, "ssim": 0.986004, "out_of_range": 0, "sec": 13.1}
+{"image": "Lena", "bits": 50000, "method": "Proposed", "exact": true, "psnr": 47.1088, "ssim": 0.985984, "out_of_range": 0, "sec": 22.1}
+{"image": "Lena", "bits": 50000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.0}
+{"image": "Lena", "bits": 100000, "method": "CNNP", "exact": true, "psnr": 42.6392, "ssim": 0.969068, "out_of_range": 0, "sec": 13.3}
+{"image": "Lena", "bits": 100000, "method": "Proposed", "exact": true, "psnr": 42.8145, "ssim": 0.968023, "out_of_range": 0, "sec": 22.1}
+{"image": "Lena", "bits": 100000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 7.6}
+{"image": "Barbara", "bits": 10000, "method": "CNNP", "exact": true, "psnr": 55.7006, "ssim": 0.998016, "out_of_range": 0, "sec": 14.7}
+{"image": "Barbara", "bits": 10000, "method": "Proposed", "exact": true, "psnr": 55.8909, "ssim": 0.99792, "out_of_range": 0, "sec": 21.1}
+{"image": "Barbara", "bits": 10000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.2}
+{"image": "Barbara", "bits": 50000, "method": "CNNP", "exact": true, "psnr": 47.2288, "ssim": 0.987996, "out_of_range": 0, "sec": 13.1}
+{"image": "Barbara", "bits": 50000, "method": "Proposed", "exact": true, "psnr": 47.3233, "ssim": 0.987289, "out_of_range": 0, "sec": 21.7}
+{"image": "Barbara", "bits": 50000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.2}
+{"image": "Barbara", "bits": 100000, "method": "CNNP", "exact": true, "psnr": 42.8739, "ssim": 0.972752, "out_of_range": 0, "sec": 13.3}
+{"image": "Barbara", "bits": 100000, "method": "Proposed", "exact": true, "psnr": 42.9938, "ssim": 0.971533, "out_of_range": 0, "sec": 22.2}
+{"image": "Barbara", "bits": 100000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.6}
+{"image": "Peppers", "bits": 10000, "method": "CNNP", "exact": true, "psnr": 50.9573, "ssim": 0.994915, "out_of_range": 0, "sec": 12.8}
+{"image": "Peppers", "bits": 10000, "method": "Proposed", "exact": true, "psnr": 51.4954, "ssim": 0.994939, "out_of_range": 0, "sec": 22.2}
+{"image": "Peppers", "bits": 10000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 2.8}
+{"image": "Peppers", "bits": 50000, "method": "CNNP", "exact": true, "psnr": 42.3602, "ssim": 0.969225, "out_of_range": 0, "sec": 13.0}
+{"image": "Peppers", "bits": 50000, "method": "Proposed", "exact": true, "psnr": 42.525, "ssim": 0.968273, "out_of_range": 0, "sec": 22.4}
+{"image": "Peppers", "bits": 50000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.3}
+{"image": "Peppers", "bits": 100000, "method": "CNNP", "exact": true, "psnr": 38.1734, "ssim": 0.932507, "out_of_range": 0, "sec": 14.3}
+{"image": "Peppers", "bits": 100000, "method": "Proposed", "exact": true, "psnr": 38.2217, "ssim": 0.92997, "out_of_range": 0, "sec": 21.7}
+{"image": "Peppers", "bits": 100000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.5}
+{"image": "Yacht", "bits": 10000, "method": "CNNP", "exact": true, "psnr": 59.9756, "ssim": 0.999151, "out_of_range": 0, "sec": 12.0}
+{"image": "Yacht", "bits": 10000, "method": "Proposed", "exact": true, "psnr": 60.383, "ssim": 0.999144, "out_of_range": 0, "sec": 21.6}
+{"image": "Yacht", "bits": 10000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.1}
+{"image": "Yacht", "bits": 50000, "method": "CNNP", "exact": true, "psnr": 50.9184, "ssim": 0.994069, "out_of_range": 0, "sec": 11.9}
+{"image": "Yacht", "bits": 50000, "method": "Proposed", "exact": true, "psnr": 51.23, "ssim": 0.993922, "out_of_range": 0, "sec": 21.6}
+{"image": "Yacht", "bits": 50000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.1}
+{"image": "Yacht", "bits": 100000, "method": "CNNP", "exact": true, "psnr": 46.4458, "ssim": 0.986109, "out_of_range": 0, "sec": 12.4}
+{"image": "Yacht", "bits": 100000, "method": "Proposed", "exact": true, "psnr": 46.5569, "ssim": 0.985567, "out_of_range": 0, "sec": 21.9}
+{"image": "Yacht", "bits": 100000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.0}
+{"image": "camera", "bits": 10000, "method": "CNNP", "exact": true, "psnr": 63.0466, "ssim": 0.999506, "out_of_range": 0, "sec": 12.8}
+{"image": "camera", "bits": 10000, "method": "Proposed", "exact": true, "psnr": 63.2566, "ssim": 0.999516, "out_of_range": 0, "sec": 21.7}
+{"image": "camera", "bits": 10000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.0}
+{"image": "camera", "bits": 50000, "method": "CNNP", "exact": true, "psnr": 55.1984, "ssim": 0.997062, "out_of_range": 0, "sec": 11.6}
+{"image": "camera", "bits": 50000, "method": "Proposed", "exact": true, "psnr": 55.9396, "ssim": 0.997369, "out_of_range": 0, "sec": 22.7}
+{"image": "camera", "bits": 50000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 4.1}
+{"image": "camera", "bits": 100000, "method": "CNNP", "exact": true, "psnr": 50.9285, "ssim": 0.992827, "out_of_range": 0, "sec": 14.1}
+{"image": "camera", "bits": 100000, "method": "Proposed", "exact": true, "psnr": 51.3692, "ssim": 0.993004, "out_of_range": 0, "sec": 24.0}
+{"image": "camera", "bits": 100000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.6}
+{"image": "moon", "bits": 10000, "method": "CNNP", "exact": true, "psnr": 64.7022, "ssim": 0.999688, "out_of_range": 0, "sec": 13.0}
+{"image": "moon", "bits": 10000, "method": "Proposed", "exact": true, "psnr": 65.04, "ssim": 0.999692, "out_of_range": 0, "sec": 23.8}
+{"image": "moon", "bits": 10000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.6}
+{"image": "moon", "bits": 50000, "method": "CNNP", "exact": true, "psnr": 57.8715, "ssim": 0.998418, "out_of_range": 0, "sec": 13.1}
+{"image": "moon", "bits": 50000, "method": "Proposed", "exact": true, "psnr": 57.926, "ssim": 0.99838, "out_of_range": 0, "sec": 22.5}
+{"image": "moon", "bits": 50000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.8}
+{"image": "moon", "bits": 100000, "method": "CNNP", "exact": true, "psnr": 53.9926, "ssim": 0.996177, "out_of_range": 0, "sec": 14.0}
+{"image": "moon", "bits": 100000, "method": "Proposed", "exact": true, "psnr": 54.1089, "ssim": 0.996173, "out_of_range": 0, "sec": 24.2}
+{"image": "moon", "bits": 100000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.4}
+{"image": "coffee", "bits": 10000, "method": "CNNP", "exact": true, "psnr": 62.2052, "ssim": 0.999465, "out_of_range": 0, "sec": 13.2}
+{"image": "coffee", "bits": 10000, "method": "Proposed", "exact": true, "psnr": 63.0184, "ssim": 0.99952, "out_of_range": 0, "sec": 21.3}
+{"image": "coffee", "bits": 10000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.1}
+{"image": "coffee", "bits": 50000, "method": "CNNP", "exact": true, "psnr": 53.9609, "ssim": 0.996731, "out_of_range": 0, "sec": 12.7}
+{"image": "coffee", "bits": 50000, "method": "Proposed", "exact": true, "psnr": 54.346, "ssim": 0.996717, "out_of_range": 0, "sec": 21.4}
+{"image": "coffee", "bits": 50000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 3.6}
+{"image": "coffee", "bits": 100000, "method": "CNNP", "exact": true, "psnr": 48.7433, "ssim": 0.991597, "out_of_range": 0, "sec": 9.4}
+{"image": "coffee", "bits": 100000, "method": "Proposed", "exact": true, "psnr": 49.6004, "ssim": 0.991749, "out_of_range": 0, "sec": 17.9}
+{"image": "coffee", "bits": 100000, "method": "OCNNP", "capacity_error": "payload does not fit in the embedding region", "sec": 2.1}

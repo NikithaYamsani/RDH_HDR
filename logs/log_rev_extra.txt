@@ -1,0 +1,42 @@
+{"image": "astronaut.png", "bits": 10000, "method": "CNNP", "psnr": 51.1658, "ssim": 0.99387, "image_exact": true, "message_exact": true, "sec": 16.7}
+{"image": "astronaut.png", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 51.0803, "ssim": 0.993789, "image_exact": true, "message_exact": true, "sec": 22.7}
+{"image": "astronaut.png", "bits": 50000, "method": "CNNP", "error": "IndexError('list index out of range')"}
+{"image": "astronaut.png", "bits": 50000, "method": "CNNP+spread4 (reversible)", "error": "ValueError('cannot reshape array of size 144645 into shape (512,512)')"}
+{"image": "astronaut.png", "bits": 100000, "method": "CNNP", "error": "IndexError('list index out of range')"}
+{"image": "astronaut.png", "bits": 100000, "method": "CNNP+spread4 (reversible)", "error": "IndexError('list index out of range')"}
+{"image": "camera.png", "bits": 10000, "method": "CNNP", "psnr": 63.0466, "ssim": 0.999506, "image_exact": true, "message_exact": true, "sec": 12.7}
+{"image": "camera.png", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 63.0446, "ssim": 0.999507, "image_exact": true, "message_exact": true, "sec": 17.5}
+{"image": "camera.png", "bits": 50000, "method": "CNNP", "psnr": 55.1984, "ssim": 0.997062, "image_exact": true, "message_exact": true, "sec": 12.2}
+{"image": "camera.png", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 55.2415, "ssim": 0.997088, "image_exact": true, "message_exact": true, "sec": 17.8}
+{"image": "camera.png", "bits": 100000, "method": "CNNP", "psnr": 50.9285, "ssim": 0.992827, "image_exact": true, "message_exact": true, "sec": 12.8}
+{"image": "camera.png", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 51.0007, "ssim": 0.992864, "image_exact": true, "message_exact": true, "sec": 18.4}
+{"image": "chelsea.png", "bits": 10000, "method": "CNNP", "psnr": 64.5066, "ssim": 0.999691, "image_exact": true, "message_exact": true, "sec": 11.4}
+{"image": "chelsea.png", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 64.521, "ssim": 0.99968, "image_exact": true, "message_exact": true, "sec": 17.3}
+{"image": "chelsea.png", "bits": 50000, "method": "CNNP", "psnr": 56.4735, "ssim": 0.998192, "image_exact": true, "message_exact": true, "sec": 11.4}
+{"image": "chelsea.png", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 56.4572, "ssim": 0.998179, "image_exact": true, "message_exact": true, "sec": 16.5}
+{"image": "chelsea.png", "bits": 100000, "method": "CNNP", "psnr": 52.3076, "ssim": 0.996211, "image_exact": true, "message_exact": true, "sec": 10.8}
+{"image": "chelsea.png", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 52.2845, "ssim": 0.996175, "image_exact": true, "message_exact": true, "sec": 18.1}
+{"image": "coffee.png", "bits": 10000, "method": "CNNP", "psnr": 62.2052, "ssim": 0.999465, "image_exact": true, "message_exact": true, "sec": 11.0}
+{"image": "coffee.png", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 62.3502, "ssim": 0.999483, "image_exact": true, "message_exact": true, "sec": 16.7}
+{"image": "coffee.png", "bits": 50000, "method": "CNNP", "psnr": 53.9609, "ssim": 0.996731, "image_exact": true, "message_exact": true, "sec": 11.7}
+{"image": "coffee.png", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 53.8898, "ssim": 0.996688, "image_exact": true, "message_exact": true, "sec": 18.2}
+{"image": "coffee.png", "bits": 100000, "method": "CNNP", "psnr": 48.7433, "ssim": 0.991597, "image_exact": true, "message_exact": true, "sec": 11.3}
+{"image": "coffee.png", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 48.7219, "ssim": 0.991444, "image_exact": true, "message_exact": true, "sec": 13.5}
+{"image": "coins.png", "bits": 10000, "method": "CNNP", "psnr": 64.1857, "ssim": 0.999667, "image_exact": true, "message_exact": true, "sec": 7.0}
+{"image": "coins.png", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 64.1631, "ssim": 0.999665, "image_exact": true, "message_exact": true, "sec": 12.9}
+{"image": "coins.png", "bits": 50000, "method": "CNNP", "psnr": 55.8694, "ssim": 0.997954, "image_exact": true, "message_exact": true, "sec": 7.6}
+{"image": "coins.png", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 55.7561, "ssim": 0.997919, "image_exact": true, "message_exact": true, "sec": 13.3}
+{"image": "coins.png", "bits": 100000, "method": "CNNP", "psnr": 51.5318, "ssim": 0.995296, "image_exact": true, "message_exact": true, "sec": 8.4}
+{"image": "coins.png", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 51.3939, "ssim": 0.99519, "image_exact": true, "message_exact": true, "sec": 13.3}
+{"image": "moon.png", "bits": 10000, "method": "CNNP", "psnr": 64.7022, "ssim": 0.999688, "image_exact": true, "message_exact": true, "sec": 8.1}
+{"image": "moon.png", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 64.7075, "ssim": 0.999687, "image_exact": true, "message_exact": true, "sec": 14.2}
+{"image": "moon.png", "bits": 50000, "method": "CNNP", "psnr": 57.8715, "ssim": 0.998418, "image_exact": true, "message_exact": true, "sec": 8.5}
+{"image": "moon.png", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 58.176, "ssim": 0.998512, "image_exact": true, "message_exact": true, "sec": 13.8}
+{"image": "moon.png", "bits": 100000, "method": "CNNP", "psnr": 53.9926, "ssim": 0.996177, "image_exact": true, "message_exact": true, "sec": 7.9}
+{"image": "moon.png", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 54.3259, "ssim": 0.996436, "image_exact": true, "message_exact": true, "sec": 13.3}
+{"image": "rocket.png", "bits": 10000, "method": "CNNP", "psnr": 64.926, "ssim": 0.99969, "image_exact": true, "message_exact": true, "sec": 7.6}
+{"image": "rocket.png", "bits": 10000, "method": "CNNP+spread4 (reversible)", "psnr": 64.9244, "ssim": 0.999691, "image_exact": true, "message_exact": true, "sec": 12.3}
+{"image": "rocket.png", "bits": 50000, "method": "CNNP", "psnr": 57.7544, "ssim": 0.998331, "image_exact": true, "message_exact": true, "sec": 7.1}
+{"image": "rocket.png", "bits": 50000, "method": "CNNP+spread4 (reversible)", "psnr": 57.6889, "ssim": 0.998344, "image_exact": true, "message_exact": true, "sec": 12.6}
+{"image": "rocket.png", "bits": 100000, "method": "CNNP", "psnr": 54.249, "ssim": 0.996254, "image_exact": true, "message_exact": true, "sec": 7.7}
+{"image": "rocket.png", "bits": 100000, "method": "CNNP+spread4 (reversible)", "psnr": 54.3881, "ssim": 0.996373, "image_exact": true, "message_exact": true, "sec": 12.9}

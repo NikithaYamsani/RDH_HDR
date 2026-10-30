@@ -1,0 +1,24 @@
+{"image": "Lena", "bits": 10000, "method": "ACE-K1", "exact": true, "psnr": 57.2859, "ssim": 0.998422, "out_of_range": 0, "sec": 13.5}
+{"image": "Lena", "bits": 10000, "method": "ACE-K3", "exact": true, "psnr": 57.364, "ssim": 0.99845, "out_of_range": 0, "sec": 15.1}
+{"image": "Lena", "bits": 50000, "method": "ACE-K1", "exact": true, "psnr": 48.3068, "ssim": 0.989299, "out_of_range": 0, "sec": 14.3}
+{"image": "Lena", "bits": 50000, "method": "ACE-K3", "exact": true, "psnr": 48.9487, "ssim": 0.990835, "out_of_range": 0, "sec": 16.6}
+{"image": "Lena", "bits": 100000, "method": "ACE-K1", "exact": true, "psnr": 44.5946, "ssim": 0.979964, "out_of_range": 0, "sec": 15.5}
+{"image": "Lena", "bits": 100000, "method": "ACE-K3", "exact": true, "psnr": 44.8011, "ssim": 0.980518, "out_of_range": 0, "sec": 16.7}
+{"image": "Barbara", "bits": 10000, "method": "ACE-K1", "exact": true, "psnr": 56.954, "ssim": 0.99838, "out_of_range": 0, "sec": 13.8}
+{"image": "Barbara", "bits": 10000, "method": "ACE-K3", "exact": true, "psnr": 57.0594, "ssim": 0.998417, "out_of_range": 0, "sec": 14.9}
+{"image": "Barbara", "bits": 50000, "method": "ACE-K1", "exact": true, "psnr": 48.9669, "ssim": 0.991626, "out_of_range": 0, "sec": 16.6}
+{"image": "Barbara", "bits": 50000, "method": "ACE-K3", "exact": true, "psnr": 49.0824, "ssim": 0.991724, "out_of_range": 0, "sec": 18.7}
+{"image": "Barbara", "bits": 100000, "method": "ACE-K1", "exact": true, "psnr": 44.0513, "ssim": 0.981038, "out_of_range": 0, "sec": 15.1}
+{"image": "Barbara", "bits": 100000, "method": "ACE-K3", "exact": true, "psnr": 44.3899, "ssim": 0.980931, "out_of_range": 0, "sec": 20.0}
+{"image": "Peppers", "bits": 10000, "method": "ACE-K1", "exact": true, "psnr": 52.1406, "ssim": 0.995658, "out_of_range": 0, "sec": 14.4}
+{"image": "Peppers", "bits": 10000, "method": "ACE-K3", "exact": true, "psnr": 52.1115, "ssim": 0.995616, "out_of_range": 0, "sec": 15.0}
+{"image": "Peppers", "bits": 50000, "method": "ACE-K1", "exact": true, "psnr": 43.3235, "ssim": 0.973704, "out_of_range": 0, "sec": 16.3}
+{"image": "Peppers", "bits": 50000, "method": "ACE-K3", "exact": true, "psnr": 43.7328, "ssim": 0.975988, "out_of_range": 0, "sec": 18.0}
+{"image": "Peppers", "bits": 100000, "method": "ACE-K1", "capacity_error": "payload does not fit in the embedding region", "sec": 8.4}
+{"image": "Peppers", "bits": 100000, "method": "ACE-K3", "capacity_error": "payload does not fit in the embedding region", "sec": 11.0}
+{"image": "Yacht", "bits": 10000, "method": "ACE-K1", "exact": true, "psnr": 61.5629, "ssim": 0.99935, "out_of_range": 0, "sec": 14.5}
+{"image": "Yacht", "bits": 10000, "method": "ACE-K3", "exact": true, "psnr": 61.5132, "ssim": 0.999345, "out_of_range": 0, "sec": 16.4}
+{"image": "Yacht", "bits": 50000, "method": "ACE-K1", "exact": true, "psnr": 52.935, "ssim": 0.996067, "out_of_range": 0, "sec": 16.9}
+{"image": "Yacht", "bits": 50000, "method": "ACE-K3", "exact": true, "psnr": 53.2941, "ssim": 0.996452, "out_of_range": 0, "sec": 19.4}
+{"image": "Yacht", "bits": 100000, "method": "ACE-K1", "exact": true, "psnr": 48.66, "ssim": 0.992993, "out_of_range": 0, "sec": 18.2}
+{"image": "Yacht", "bits": 100000, "method": "ACE-K3", "exact": true, "psnr": 49.0262, "ssim": 0.992894, "out_of_range": 0, "sec": 17.2}

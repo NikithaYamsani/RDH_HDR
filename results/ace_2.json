@@ -1,0 +1,302 @@
+[
+ {
+  "image": "camera",
+  "bits": 10000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 63.8018,
+  "ssim": 0.999572,
+  "out_of_range": 0,
+  "sec": 14.8
+ },
+ {
+  "image": "camera",
+  "bits": 10000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 63.7592,
+  "ssim": 0.999572,
+  "out_of_range": 0,
+  "sec": 15.1
+ },
+ {
+  "image": "camera",
+  "bits": 50000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 56.586,
+  "ssim": 0.997719,
+  "out_of_range": 0,
+  "sec": 14.9
+ },
+ {
+  "image": "camera",
+  "bits": 50000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 56.598,
+  "ssim": 0.997754,
+  "out_of_range": 0,
+  "sec": 18.0
+ },
+ {
+  "image": "camera",
+  "bits": 100000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 52.1344,
+  "ssim": 0.994303,
+  "out_of_range": 0,
+  "sec": 16.5
+ },
+ {
+  "image": "camera",
+  "bits": 100000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 52.206,
+  "ssim": 0.994349,
+  "out_of_range": 0,
+  "sec": 19.9
+ },
+ {
+  "image": "moon",
+  "bits": 10000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 65.1262,
+  "ssim": 0.999701,
+  "out_of_range": 0,
+  "sec": 16.2
+ },
+ {
+  "image": "moon",
+  "bits": 10000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 65.0343,
+  "ssim": 0.999696,
+  "out_of_range": 0,
+  "sec": 15.6
+ },
+ {
+  "image": "moon",
+  "bits": 50000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 58.0483,
+  "ssim": 0.998416,
+  "out_of_range": 0,
+  "sec": 16.5
+ },
+ {
+  "image": "moon",
+  "bits": 50000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 58.0731,
+  "ssim": 0.998431,
+  "out_of_range": 0,
+  "sec": 17.1
+ },
+ {
+  "image": "moon",
+  "bits": 100000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 54.4817,
+  "ssim": 0.996462,
+  "out_of_range": 0,
+  "sec": 15.3
+ },
+ {
+  "image": "moon",
+  "bits": 100000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 54.4665,
+  "ssim": 0.996454,
+  "out_of_range": 0,
+  "sec": 22.1
+ },
+ {
+  "image": "coffee",
+  "bits": 10000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 63.4756,
+  "ssim": 0.999567,
+  "out_of_range": 0,
+  "sec": 13.0
+ },
+ {
+  "image": "coffee",
+  "bits": 10000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 63.4932,
+  "ssim": 0.99957,
+  "out_of_range": 0,
+  "sec": 14.5
+ },
+ {
+  "image": "coffee",
+  "bits": 50000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 55.557,
+  "ssim": 0.997554,
+  "out_of_range": 0,
+  "sec": 14.5
+ },
+ {
+  "image": "coffee",
+  "bits": 50000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 55.5681,
+  "ssim": 0.997564,
+  "out_of_range": 0,
+  "sec": 16.6
+ },
+ {
+  "image": "coffee",
+  "bits": 100000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 50.6361,
+  "ssim": 0.994405,
+  "out_of_range": 0,
+  "sec": 18.4
+ },
+ {
+  "image": "coffee",
+  "bits": 100000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 50.8672,
+  "ssim": 0.994182,
+  "out_of_range": 0,
+  "sec": 19.9
+ },
+ {
+  "image": "chelsea",
+  "bits": 10000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 64.7957,
+  "ssim": 0.999681,
+  "out_of_range": 0,
+  "sec": 12.1
+ },
+ {
+  "image": "chelsea",
+  "bits": 10000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 64.7218,
+  "ssim": 0.999678,
+  "out_of_range": 0,
+  "sec": 13.7
+ },
+ {
+  "image": "chelsea",
+  "bits": 50000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 57.422,
+  "ssim": 0.998424,
+  "out_of_range": 0,
+  "sec": 14.0
+ },
+ {
+  "image": "chelsea",
+  "bits": 50000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 57.3917,
+  "ssim": 0.998415,
+  "out_of_range": 0,
+  "sec": 15.3
+ },
+ {
+  "image": "chelsea",
+  "bits": 100000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 53.7992,
+  "ssim": 0.99707,
+  "out_of_range": 0,
+  "sec": 13.7
+ },
+ {
+  "image": "chelsea",
+  "bits": 100000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 53.7753,
+  "ssim": 0.997061,
+  "out_of_range": 0,
+  "sec": 11.8
+ },
+ {
+  "image": "rocket",
+  "bits": 10000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 65.0375,
+  "ssim": 0.999684,
+  "out_of_range": 0,
+  "sec": 8.9
+ },
+ {
+  "image": "rocket",
+  "bits": 10000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 64.9714,
+  "ssim": 0.999682,
+  "out_of_range": 0,
+  "sec": 8.6
+ },
+ {
+  "image": "rocket",
+  "bits": 50000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 58.0179,
+  "ssim": 0.998397,
+  "out_of_range": 0,
+  "sec": 8.1
+ },
+ {
+  "image": "rocket",
+  "bits": 50000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 58.0048,
+  "ssim": 0.998395,
+  "out_of_range": 0,
+  "sec": 9.9
+ },
+ {
+  "image": "rocket",
+  "bits": 100000,
+  "method": "ACE-K1",
+  "exact": true,
+  "psnr": 54.839,
+  "ssim": 0.996617,
+  "out_of_range": 0,
+  "sec": 9.1
+ },
+ {
+  "image": "rocket",
+  "bits": 100000,
+  "method": "ACE-K3",
+  "exact": true,
+  "psnr": 54.805,
+  "ssim": 0.996588,
+  "out_of_range": 0,
+  "sec": 11.7
+ }
+]

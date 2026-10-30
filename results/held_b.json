@@ -1,0 +1,96 @@
+[
+ {
+  "image": "china.png",
+  "bits": 10000,
+  "cnnp_psnr": 64.7097,
+  "cnnp_ssim": 0.999653,
+  "cand_psnr": 64.7911,
+  "cand_ssim": 0.999654,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 28.8
+ },
+ {
+  "image": "china.png",
+  "bits": 50000,
+  "cnnp_psnr": 57.3192,
+  "cnnp_ssim": 0.998073,
+  "cand_psnr": 57.4796,
+  "cand_ssim": 0.998103,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 29.3
+ },
+ {
+  "image": "china.png",
+  "bits": 100000,
+  "cnnp_psnr": 52.4197,
+  "cnnp_ssim": 0.995189,
+  "cand_psnr": 53.3671,
+  "cand_ssim": 0.995451,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 31.7
+ },
+ {
+  "image": "flower.png",
+  "bits": 10000,
+  "cnnp_psnr": 64.431,
+  "cnnp_ssim": 0.99964,
+  "cand_psnr": 64.4736,
+  "cand_ssim": 0.999636,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 28.8
+ },
+ {
+  "image": "flower.png",
+  "bits": 50000,
+  "cnnp_psnr": 56.7695,
+  "cnnp_ssim": 0.997905,
+  "cand_psnr": 56.88,
+  "cand_ssim": 0.997926,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 27.3
+ },
+ {
+  "image": "flower.png",
+  "bits": 100000,
+  "cnnp_psnr": 53.3605,
+  "cnnp_ssim": 0.995531,
+  "cand_psnr": 53.4204,
+  "cand_ssim": 0.995511,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 0,
+  "sec": 29.9
+ },
+ {
+  "image": "astronaut.png",
+  "bits": 10000,
+  "cnnp_psnr": 51.1658,
+  "cnnp_ssim": 0.99387,
+  "cand_psnr": 52.3744,
+  "cand_ssim": 0.994672,
+  "image_exact": true,
+  "message_exact": true,
+  "out_of_range": 19,
+  "sec": 41.7
+ },
+ {
+  "image": "astronaut.png",
+  "bits": 50000,
+  "error": "IndexError('list index out of range')"
+ },
+ {
+  "image": "astronaut.png",
+  "bits": 100000,
+  "error": "IndexError('list index out of range')"
+ }
+]

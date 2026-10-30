@@ -1,0 +1,74 @@
+[
+ {
+  "image": "Lena.bmp",
+  "bits": 10000,
+  "psnr": 55.9332,
+  "image_exact": false,
+  "message_exact": false
+ },
+ {
+  "image": "Lena.bmp",
+  "bits": 50000,
+  "psnr": 47.0751,
+  "image_exact": false,
+  "message_exact": false
+ },
+ {
+  "image": "Lena.bmp",
+  "bits": 100000,
+  "error": "ValueError('cannot reshape array of size 131072 into shape (512,512)')"
+ },
+ {
+  "image": "Barbara.bmp",
+  "bits": 10000,
+  "psnr": 55.951,
+  "image_exact": false,
+  "message_exact": false
+ },
+ {
+  "image": "Barbara.bmp",
+  "bits": 50000,
+  "psnr": 47.644,
+  "image_exact": false,
+  "message_exact": false
+ },
+ {
+  "image": "Barbara.bmp",
+  "bits": 100000,
+  "psnr": 43.2232,
+  "image_exact": false,
+  "message_exact": false
+ },
+ {
+  "image": "Peppers.bmp",
+  "bits": 10000,
+  "error": "IndexError('list index out of range')"
+ },
+ {
+  "image": "Peppers.bmp",
+  "bits": 50000,
+  "error": "IndexError('list index out of range')"
+ },
+ {
+  "image": "Peppers.bmp",
+  "bits": 100000,
+  "error": "IndexError('list index out of range')"
+ },
+ {
+  "image": "yacht.bmp",
+  "bits": 10000,
+  "psnr": 60.3009,
+  "image_exact": false,
+  "message_exact": false
+ },
+ {
+  "image": "yacht.bmp",
+  "bits": 50000,
+  "error": "IndexError('list index out of range')"
+ },
+ {
+  "image": "yacht.bmp",
+  "bits": 100000,
+  "error": "ValueError('cannot reshape array of size 262100 into shape (512,512)')"
+ }
+]

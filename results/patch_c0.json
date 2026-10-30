@@ -1,0 +1,50 @@
+[
+ {
+  "image": "Peppers",
+  "bits": 100000,
+  "method": "ACE-C0-K1",
+  "exact": true,
+  "psnr": 39.1609,
+  "ssim": 0.94637,
+  "out_of_range": 0,
+  "sec": 10.7
+ },
+ {
+  "image": "Peppers",
+  "bits": 100000,
+  "method": "ACE-C0-K3",
+  "exact": true,
+  "psnr": 39.7579,
+  "ssim": 0.957541,
+  "out_of_range": 0,
+  "sec": 15.1
+ },
+ {
+  "image": "astronaut",
+  "bits": 50000,
+  "method": "ACE-C0-K1",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 5.5
+ },
+ {
+  "image": "astronaut",
+  "bits": 50000,
+  "method": "ACE-C0-K3",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 6.2
+ },
+ {
+  "image": "astronaut",
+  "bits": 100000,
+  "method": "ACE-C0-K1",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 5.4
+ },
+ {
+  "image": "astronaut",
+  "bits": 100000,
+  "method": "ACE-C0-K3",
+  "capacity_error": "payload does not fit in the embedding region",
+  "sec": 6.9
+ }
+]
