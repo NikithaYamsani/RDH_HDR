@@ -4,8 +4,8 @@ import run_exp as X, decode as D, rdh_fixed as F
 from skimage.metrics import structural_similarity as ssim
 X.R.cnn_histogram_shifting = F.cnn_histogram_shifting
 exec(open('run_all.py').read().split("K = [")[0].split("STD = ")[1].join(["STD = ",""]) if False else "")
-STD = '/home/claude/nikithayamsani/rdh_hdr/standard_test_images'
-PATH = {'Lena':STD+'/Lena.bmp','Barbara':STD+'/Barbara.bmp','Peppers':STD+'/Peppers.bmp','Yacht':STD+'/yacht.bmp','camera':'extra/camera.png','moon':'extra/moon.png','coffee':'extra/coffee.png','chelsea':'heldout/chelsea.png','rocket':'heldout/rocket.png','coins':'heldout/coins.png','astronaut':'heldout/astronaut.png','china':'heldout/china.png','flower':'heldout/flower.png'}
+STD = 'standard_test_images'
+PATH = {'Lena':STD+'/Lena.bmp','Barbara':STD+'/Barbara.bmp','Peppers':STD+'/Peppers.bmp','Yacht':STD+'/yacht.bmp','camera':'code/extra/camera.png','moon':'code/extra/moon.png','coffee':'code/extra/coffee.png','chelsea':'code/heldout/chelsea.png','rocket':'code/heldout/rocket.png','coins':'code/heldout/coins.png','astronaut':'code/heldout/astronaut.png','china':'code/heldout/china.png','flower':'code/heldout/flower.png'}
 names = sys.argv[1].split(','); out = sys.argv[2]; rows = []
 for nm in names:
     g = cv2.cvtColor(cv2.resize(cv2.imread(PATH[nm]), (512, 512), interpolation=cv2.INTER_CUBIC), cv2.COLOR_BGR2GRAY).astype(np.float64)

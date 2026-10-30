@@ -3,11 +3,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import run_exp as X, decode as D, rdh_fixed as F
 from skimage.metrics import structural_similarity as ssim
 X.R.cnn_histogram_shifting = F.cnn_histogram_shifting          # fixed embedder (overflow + capacity handling)
-STD = '/home/claude/nikithayamsani/rdh_hdr/standard_test_images'
+STD = 'standard_test_images'
 PATH = {'Lena':STD+'/Lena.bmp','Barbara':STD+'/Barbara.bmp','Peppers':STD+'/Peppers.bmp','Yacht':STD+'/yacht.bmp',
-        'camera':'extra/camera.png','moon':'extra/moon.png','coffee':'extra/coffee.png',
-        'chelsea':'heldout/chelsea.png','rocket':'heldout/rocket.png','coins':'heldout/coins.png','astronaut':'heldout/astronaut.png',
-        'china':'heldout/china.png','flower':'heldout/flower.png'}
+        'camera':'code/extra/camera.png','moon':'code/extra/moon.png','coffee':'code/extra/coffee.png',
+        'chelsea':'code/heldout/chelsea.png','rocket':'code/heldout/rocket.png','coins':'code/heldout/coins.png','astronaut':'code/heldout/astronaut.png',
+        'china':'code/heldout/china.png','flower':'code/heldout/flower.png'}
 K = [(-1,0),(1,0),(0,-1),(0,1),(-1,2),(-1,-2),(1,2),(1,-2),(-2,1),(-2,-1),(2,1),(2,-1)]
 base4 = F.calculate_complexity
 def std12(img, i, j):

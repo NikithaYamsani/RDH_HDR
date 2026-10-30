@@ -6,8 +6,8 @@ K=[(-1,0),(1,0),(0,-1),(0,1),(-1,2),(-1,-2),(1,2),(1,-2),(-2,1),(-2,-1),(2,1),(2
 def enc(img,i,j):
     M,N=img.shape
     return R.calculate_complexity(img,i,j)+0.5*float(np.std([img[min(max(i+a,0),M-1),min(max(j+b,0),N-1)] for a,b in K]))
-imgs={'Lena':'/home/claude/nikithayamsani/rdh_hdr/standard_test_images/Lena.bmp','Barbara':'/home/claude/nikithayamsani/rdh_hdr/standard_test_images/Barbara.bmp',
-      'Peppers':'/home/claude/nikithayamsani/rdh_hdr/standard_test_images/Peppers.bmp','yacht':'/home/claude/nikithayamsani/rdh_hdr/standard_test_images/yacht.bmp'}
+imgs={'Lena':'standard_test_images/Lena.bmp','Barbara':'standard_test_images/Barbara.bmp',
+      'Peppers':'standard_test_images/Peppers.bmp','yacht':'standard_test_images/yacht.bmp'}
 OPT=[(tn,tp) for tn in (-3,-2,-1,0) for tp in (0,1,2,3)]
 def seg_tables(e):
     out=[]

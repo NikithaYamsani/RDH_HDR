@@ -3,8 +3,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import run_exp as X, rdh_ace as A
 from skimage.metrics import structural_similarity as ssim
 exec(open('run_ace.py').read().split("names =")[0].split("PATH =")[1].join(["PATH =",""])) if False else None
-STD = '/home/claude/nikithayamsani/rdh_hdr/standard_test_images'
-PATH = {'Peppers':STD+'/Peppers.bmp','astronaut':'heldout/astronaut.png'}
+STD = 'standard_test_images'
+PATH = {'Peppers':STD+'/Peppers.bmp','astronaut':'code/heldout/astronaut.png'}
 order=A.ORDER; tag=sys.argv[1]   # 'enc' or 'c0'
 A.ORDER=tag
 todo=[('Peppers',100000),('astronaut',50000),('astronaut',100000)]

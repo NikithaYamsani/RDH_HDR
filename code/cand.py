@@ -13,7 +13,7 @@ def range4(img, i, j):
 base4 = R.calculate_complexity
 def base_plus_std12(img, i, j): return base4(img, i, j) + 0.5*std12(img, i, j)
 CANDS = {'std12': std12, 'range4': range4, 'base+0.5std12': base_plus_std12}
-imgdir_map = {'Lena.bmp':'/home/claude/nikithayamsani/rdh_hdr/standard_test_images','Barbara.bmp':'/home/claude/nikithayamsani/rdh_hdr/standard_test_images','Peppers.bmp':'/home/claude/nikithayamsani/rdh_hdr/standard_test_images','yacht.bmp':'/home/claude/nikithayamsani/rdh_hdr/standard_test_images','camera.png':'extra','moon.png':'extra','coffee.png':'extra'}
+imgdir_map = {'Lena.bmp':'standard_test_images','Barbara.bmp':'standard_test_images','Peppers.bmp':'standard_test_images','yacht.bmp':'standard_test_images','camera.png':'extra','moon.png':'extra','coffee.png':'extra'}
 rows = []
 for fn, d in imgdir_map.items():
     g = cv2.cvtColor(cv2.resize(cv2.imread(os.path.join(d, fn)), (512, 512), interpolation=cv2.INTER_CUBIC), cv2.COLOR_BGR2GRAY).astype(np.float64)

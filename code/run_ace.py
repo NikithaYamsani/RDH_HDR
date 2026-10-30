@@ -4,10 +4,10 @@ import run_exp as X, rdh_ace as A
 from skimage.metrics import structural_similarity as ssim
 STD = 'standard_test_images'
 PATH = {'Lena':STD+'/Lena.bmp','Barbara':STD+'/Barbara.bmp','Peppers':STD+'/Peppers.bmp','Yacht':STD+'/yacht.bmp',
-        'camera':'extra/camera.png','moon':'extra/moon.png','coffee':'extra/coffee.png',
-        'chelsea':'heldout/chelsea.png','rocket':'heldout/rocket.png','coins':'heldout/coins.png','astronaut':'heldout/astronaut.png',
-        'china':'heldout/china.png','flower':'heldout/flower.png',
-        'cat':'extra2/cat.png','cell':'extra2/cell.png','hubble':'extra2/hubble_deep_field.png','immuno':'extra2/immunohistochemistry.png','retina':'extra2/retina.png'}
+        'camera':'code/extra/camera.png','moon':'code/extra/moon.png','coffee':'code/extra/coffee.png',
+        'chelsea':'code/heldout/chelsea.png','rocket':'code/heldout/rocket.png','coins':'code/heldout/coins.png','astronaut':'code/heldout/astronaut.png',
+        'china':'code/heldout/china.png','flower':'code/heldout/flower.png',
+        'cat':'code/extra2/cat.png','cell':'code/extra2/cell.png','hubble':'code/extra2/hubble_deep_field.png','immuno':'code/extra2/immunohistochemistry.png','retina':'code/extra2/retina.png'}
 names = sys.argv[1].split(','); out = sys.argv[2]; Ks = [int(k) for k in sys.argv[3].split(',')]
 rows = []
 for nm in names:
